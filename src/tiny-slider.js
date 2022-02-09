@@ -1092,8 +1092,8 @@ export var tns = function(options) {
       }
 
       if (!prevButton || !nextButton) {
-        prevButton = controlsContainer.children[0];
-        nextButton = controlsContainer.children[1];
+        prevButton = controlsContainer?.children[0];
+        nextButton = controlsContainer?.children[1];
       }
 
       if (options.controlsContainer) {
